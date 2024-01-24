@@ -97,6 +97,7 @@ function limpar(){
 function limparInput() {
     palavra = document.getElementById('inputprincipal');
     let valorAtual = palavra.value;
-    let valorLimpo = valorAtual.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    let valorLimpo = valorAtual.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
     palavra.value = valorLimpo;
+    
 }
