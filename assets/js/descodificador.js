@@ -94,10 +94,14 @@ function limpar(){
     exibirTextoNaTela('resultado__h2', 'Nenhuma mensagem encontrada, digite algo &#128515');
 }
 
-function limparInput() {
-    palavra = document.getElementById('inputprincipal');
-    let valorAtual = palavra.value;
-    let valorLimpo = valorAtual.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
-    palavra.value = valorLimpo;
-    
+function validarInput() {
+    var palavra = document.getElementById('inputprincipal').value;
+    var regex = /^[a-z\s]+$/;
+
+    if (!regex.test(palavra) && palavra.trim() !== '') {
+        alert('Apenas letras minúsculas e espaços são permitidos!');
+        limpar()
+    }
+
 }
+

@@ -16,10 +16,10 @@
     </header>
     <main class="principal">
         <section class="descodificador">
-            <textarea type="text" id="inputprincipal" class="principal_input" placeholder="Digite seu texto"  oninput="limparInput()"></textarea>
+            <textarea type="text" id="inputprincipal" class="principal_input" placeholder="Digite seu texto"  oninput="validarInput()" onkeypress="return lettersOnly(event)"></textarea>
             <div class="principal__aviso">
                 <img src="assets/img/help.png" alt="icone-help" style="height: 16px;">
-                <p>Apenas letras minúsculas e sem acento.</p>
+                <p>Apenas letras minúsculas e sem acentuação!</p>
             </div>
             <div class="botoes">
                 <button id="criptografia" onclick="criptografar()" class="botoes__criptografar">Criptografar</button>

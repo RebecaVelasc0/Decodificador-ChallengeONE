@@ -32,6 +32,7 @@ body{
     width: 50%;
     background-image: url("../img/code.svg");
     background-repeat: no-repeat;
+    background-size: 700px 700px;
 }
 
 
@@ -58,6 +59,7 @@ textarea:focus, input:focus, select:focus {
     display: flex;
     gap: 8px;
     margin-bottom: 16px;
+    justify-content: start;
 }
 
 .botoes{
