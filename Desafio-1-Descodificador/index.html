@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/descodificador.js"></script>
+    <script src="clipboard.js-master/clipboard.js-master/dist/clipboard.min.js"></script>
+    <title>Descodificador - Rebeca Velasco</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="nav__logo" src="assets/img/Logo.png" alt="logo-alura">
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="descodificador">
+            <textarea type="text" id="inputprincipal" class="principal_input" placeholder="Digite seu texto"></textarea>
+            <div class="principal__aviso">
+                <img src="assets/img/help.png" alt="icone-help" style="height: 16px;">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button id="criptografia" onclick="criptografar()" class="botoes__criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="botoes__descriptografar">Descriptografar</button>
+                <button  onclick="limpar()" class="botoes__limpar">Limpar Campos</button>
+            </div>
+        </section>
+        <section class="resultado">
+            <h2 id="resultado__h2" class="resultado__h2"></h2>
+            <button class="botoes__copiar" data-clipboard-target="#resultado__h2">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <section class="eu">
+                <img class="eu__foto" src="assets/img/euzinha2.jpg" alt="">
+                <h2 class="eu__titulo">Rebeca Velasco</h2>
+            </section>
+            <section class="redes">
+                <a href=""><img src="assets/img/github.png" alt="Github" style="width: 40px; height: 40px;"></a>
+                <a href=""><img src="assets/img/link.png" alt="Linkedin" style="width: 44px; height: 44px;"></a> 
+            </section>
+            <p>Desenvolvido por Rebeca Velasco um challenge de <span class="rodape__destaque">ONE + ALURA</span></p>
+            <img src="assets/img/aluraoracle.png" alt="" style="width: 361px; height: 130px;">     
+        </section>
+    </footer>
+</body>
+</html>
+
+<script>
+    new ClipboardJS('.botoes__copiar');
+</script>
