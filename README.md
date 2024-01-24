@@ -2,7 +2,7 @@
   <img loading="lazy" src="https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 </div>
 
-# Codificador e Decodificador 
+# :computer: Codificador e Decodificador 
 ### Este projeto faz parte de um challenge dado por ONE - Oracle Next Education
 #### O projeto consiste em codificar e decoficar um texto juntamente com as funcionalidades de limpar campos e copiar texto.
 
