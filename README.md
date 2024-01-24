@@ -1,7 +1,10 @@
+<div align="center">
+  <img loading="lazy" src="https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
+</div>
 
 # Codificador e Decodificador 
 ### Este projeto faz parte de um challenge dado por ONE - Oracle Next Education
-#### O projeto consiste em codificar e decoficar um texto juntamente com a funcionalidade de limpar campos e copiar texto.
+#### O projeto consiste em codificar e decoficar um texto juntamente com as funcionalidades de limpar campos e copiar texto.
 #### Link GitHub Pages: https://rebecavelasc0.github.io/Descodificador-ChallengeONE/
 
 <div align="center">
