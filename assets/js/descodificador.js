@@ -93,3 +93,10 @@ function limpar(){
     palavra.value = '';
     exibirTextoNaTela('resultado__h2', 'Nenhuma mensagem encontrada, digite algo &#128515');
 }
+
+function limparInput() {
+    palavra = document.getElementById('inputprincipal');
+    let valorAtual = palavra.value;
+    let valorLimpo = valorAtual.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    palavra.value = valorLimpo;
+}
