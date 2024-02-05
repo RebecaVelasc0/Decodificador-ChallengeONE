@@ -4,7 +4,7 @@
 
 # :computer: Codificador e Decodificador 
 ### Este projeto faz parte de um challenge dado por ONE - Oracle Next Education
-#### O projeto consiste em codificar e decoficar um texto juntamente com as funcionalidades de limpar campos e copiar texto.
+#### O projeto consiste em codificar e decodificar um texto juntamente com as funcionalidades de limpar campos e copiar texto.
 
 <a href="https://rebecavelasc0.github.io/Decodificador-ChallengeONE/" target="_blank">Projeto aqui!</a>
 
